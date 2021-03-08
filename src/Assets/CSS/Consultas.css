@@ -1,0 +1,66 @@
+#consultas{
+
+    background-color:cornsilk;
+
+    margin: 5%;
+
+}
+
+
+.consultas{
+
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    
+}
+#historial ul {
+
+    height: 97%;
+    background: brown;
+    margin: 10px;
+}
+
+#historial ul li {
+    text-align: left;
+    color: cornsilk;
+    list-style: none;
+}
+
+#historial{
+width: 25%;
+
+}
+#leerconsulta{
+    background-color: rgb(117, 202, 128);
+    width: 50%;
+    align-items: left;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;    
+
+}
+
+#leerconsulta textarea{
+
+    align-self: center;
+    width: 60%;
+    height: 200px;
+        
+}
+
+#leerconsulta button{
+
+    align-self: center;
+    width: 100px;
+    margin: 2%;
+
+}
+
+#parrafo {
+
+    margin:3%;
+    background-color: cornsilk;
+    padding: 3%;
+
+}

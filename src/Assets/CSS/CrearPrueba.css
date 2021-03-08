@@ -1,0 +1,33 @@
+#crearPruebas{
+
+    height: 725px;
+
+    background:cornsilk ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+    grid-auto-rows: minmax(100px, auto);
+    margin:3%;
+
+}
+.modulosprueba{
+
+    margin:10px;
+    padding: 10PX;
+    background-color: brown;
+}
+
+.modulosprueba a{
+    
+    display: inline-block;
+    transition: 300ms all;
+    text-decoration: none;
+    color:azure;
+
+}
+
+.modulosprueba a:hover{
+
+    color:rgb(37, 24, 24);
+
+}

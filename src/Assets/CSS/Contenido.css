@@ -1,0 +1,30 @@
+
+
+.contenido{
+
+    width: 50%;
+    height: 100%;
+    background: cornsilk;
+    margin: 10px;
+   
+
+}
+
+.botones{
+
+    background-color: rgb(117, 202, 128);
+    padding:3px;
+    margin:3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+   
+     
+}
+

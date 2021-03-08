@@ -1,0 +1,39 @@
+#entrevista{
+
+    width:100;
+    background: cornsilk;
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding:2%;
+    justify-content: space-around;
+
+}
+
+#crearentrevista{
+
+    width: 25%;
+    background: brown;
+    margin:10px;
+   
+    
+}
+
+#crearentrevista ul{
+
+    width: 50%;
+    list-style: none;
+    text-align: left;
+    color: cornsilk;
+    
+}
+
+#notificacionentrevista{
+
+    width: 50%;
+    background: brown;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+
+}

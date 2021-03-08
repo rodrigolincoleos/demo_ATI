@@ -1,0 +1,111 @@
+body{
+    text-align: center;
+    background: rgb(23, 93, 221);
+    padding: 0px ;
+    margin: 0px;
+}
+ 
+#header{
+    
+    height: 120px;
+    width: 100%;
+    background: brown;
+    border-bottom: 1px solid #383803;
+    border-top: 5px solid coral;
+}
+
+.clearfix{
+
+    clear:both;
+    float:none;
+
+}
+
+.center{
+
+    width: 75%;
+    margin: 0px auto;
+
+}
+
+#logo{
+
+    width: 30%;
+    font-size: 40px;
+    float: left;
+    margin-top: 32px;
+
+}
+
+#logo img {
+
+    display: block;
+    float: left;
+    height: 120px;
+    margin-top: -25px;
+    animation: girar infinite 30s linear;
+
+}
+
+@keyframes girar{
+
+    from{
+
+        transform: rotate(0deg);
+
+    }to{
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+#brand{
+
+    display: block ;
+    margin: 0px;
+    float: left;
+
+}
+
+
+#menu{
+
+    width: 70%;
+    float: right;
+    font-size: 18px;
+
+}
+
+#menu ul{
+
+    line-height: 85px;
+    width: 60%;
+    float: right;
+
+}
+
+#menu ul li{
+
+    list-style: none;
+    height: 45px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+#menu a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 300ms all;
+
+}
+
+#menu a:hover{
+
+    color:rgb(37, 24, 24);
+
+}
